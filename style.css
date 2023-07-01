@@ -10,3 +10,40 @@ body {
   margin-right: auto;
   padding: 0 20px;
 }
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  width: 160px;
+  height: 41px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-item {
+  margin-left: 40px;
+}
+
+.header-silka {
+  text-decoration: none;
+  color: #1f1534;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+  font-weight: 700;
+}
